@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "305dc84e-acdb-40e6-9288-90ba88442a1c",
+      "name": "Dr. Anjali Mehta",
+      "email": "demo.doctor@medikiosk.local",
+      "role": "doctor",
+      "passwordHash": "0f433b54-9b75-4fbc-b325-385909f4d4a6:efd4d3949de89e0ac33ceef920b5fb38c2bd68aa1c0dbd7fd512a9e8818baec1",
+      "demo": true,
+      "createdAt": "2026-09-03T17:48:29.645Z"
+    },
+    {
+      "id": "bd35ad29-d120-4a41-b7f2-9a3202d55d99",
+      "name": "S. Priya",
+      "email": "demo.patient@medikiosk.local",
+      "role": "patient",
+      "passwordHash": "f217e2a7-331b-47b8-bf41-d676f0ef6f37:f126bad7455041ec0dbbf6deef875fcee25cef1f31cf2ca7567ac6b32ba41657",
+      "demo": true,
+      "createdAt": "2026-09-03T18:18:07.702Z"
+    }
+  ],
+  "sessions": {
+    "e24aeb59-1b93-4c94-acee-1d8f616a6e9e": "305dc84e-acdb-40e6-9288-90ba88442a1c",
+    "c7839ef8-13c0-422d-baef-00e8e7ffabf0": "bd35ad29-d120-4a41-b7f2-9a3202d55d99"
+  },
+  "visits": [
+    {
+      "id": "a71b4541-b089-4e42-b639-38bff613e991",
+      "token": "A-019",
+      "patientId": "bd35ad29-d120-4a41-b7f2-9a3202d55d99",
+      "patientName": "S. Priya",
+      "status": "intake",
+      "triage": "white",
+      "reports": [],
+      "createdAt": "2026-09-03T18:18:31.136Z"
+    },
+    {
+      "id": "3fd06f66-c1df-4c4d-b616-e2c37ca3e6f1",
+      "token": "A-018",
+      "patientId": "bd35ad29-d120-4a41-b7f2-9a3202d55d99",
+      "patientName": "S. Priya",
+      "status": "intake",
+      "triage": "white",
+      "reports": [],
+      "createdAt": "2026-09-03T18:18:25.781Z"
+    }
+  ],
+  "prescriptions": []
+}
